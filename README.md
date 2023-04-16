@@ -66,7 +66,7 @@ function convert(event)
 			var link = document.createElement("a");
 			link.download = file.name.split('.', 1)[0] + ".h";
 			link.href = URL.createObjectURL(new Blob(
-			[audioBufferToText(buffer, document.getElementById("normalize").checked, document.getElementById("resample").checked, document.getElementById("samplerate").value)], {type: "text/plain"}));
+			[audioBufferToText(buffer, document.getElementById("normalize").checked, document.getElementById("resample").checked,                                                   document.getElementById("samplerate").value)], {type: "text/plain"}));
 			document.body.appendChild(document.createElement("br"));
 			document.body.appendChild(link);
 			link.innerHTML = link.download;
