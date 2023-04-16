@@ -49,7 +49,7 @@ function audioBufferToText(audioBuffer, normalize, resample, sampleRate)
 	text += "};\r\n";
 	return text;
 }
-//isn't that simple code awesome? ...that's bitluni style
+
 
 function enrickSound(buffer)
 {
