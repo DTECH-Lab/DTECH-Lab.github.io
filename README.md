@@ -86,7 +86,7 @@ function convert(event)
 Open an audio file supported by the browser to convert it to a c++ header file (8Bit signed).<br><br>
 <input type="file" onchange="convert(event)"><br><br>
 Export: <input id="normalize" type="checkbox" checked>normalize <input id="resample" type="checkbox">resample <input id="samplerate" value="11025"><br>
-</body>
+
 	
 	
 	
